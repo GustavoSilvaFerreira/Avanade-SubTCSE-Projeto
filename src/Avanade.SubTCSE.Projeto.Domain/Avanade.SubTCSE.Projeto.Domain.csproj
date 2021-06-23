@@ -6,6 +6,13 @@
 
   <ItemGroup>
     <Folder Include="Aggregates\EmployeeRole\Validators\" />
+    <Folder Include="Aggregates\Employee\Interfaces\Repositories\" />
+    <Folder Include="Aggregates\Employee\ValueObject\" />
+    <Folder Include="Aggregates\Employee\Validators\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.2.3" />
   </ItemGroup>
 
 </Project>
